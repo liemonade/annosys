@@ -1,0 +1,158 @@
+/*
+	Copyright (C) 2012  Darvin Mertsch
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
+
+.qTableContain {
+	padding: 0px;
+	margin: 0px;
+}
+.qTableSearch {
+	background: url("../../css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50% #CCCCCC;
+	padding: 2px;
+	-moz-border-radius-topright: 7px;
+	border-top-right-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	border-top-left-radius: 7px;
+}
+
+.qTableSearchField {
+	margin-right: 10px;
+	font-size: 15px;
+	width: 200px;
+}
+
+.qTableSearchField.qTableSearchFieldEmpty {
+	font-style: italic;
+	color: #444;
+}
+
+.qTableSearchFilter {
+	font-size: 11px;
+	margin-right: 5px;
+}
+
+.qTableSearchHighlight0 {
+	background-color:#cee8ff;
+	border: 1px solid #3e9def;
+	padding: 1px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.qTableSearchHighlight1 {
+	background-color:#fff1a2;
+	border: 1px solid #f3da4e;
+	padding: 1px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.qTableSearchHighlight2{
+	background-color:#a4ff98;
+	border: 1px solid #55ef41;
+	padding: 1px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.qTableSearchHighlight3 {
+	background-color:#ff9f9f;
+	border: 1px solid #fc3f3f;
+	padding: 1px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.qTableSearchHighlight4 {
+	background-color:#81feff;
+	border: 1px solid #3fe7e9;
+	padding: 1px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.qTable {
+	margin: 0;
+	border-collapse: collapse;
+	font-family: Verdana,Arial,sans-serif;
+	color: #222222;
+	font-size: 11px;
+	font-weight: 400;
+}
+
+.qTableHeadlineMouseover {
+	opacity: 0.5;
+	background-color: #eee;
+}
+
+.qTableHeadlineClick {
+	opacity: 0.8;
+	background-color: #ddd;
+}
+
+.qTableHeadlineSortNot {
+	float: right;
+	background-image: url("../../css/smoothness/images/ui-icons_222222_256x240.png");
+	background-position: -128px -16px;
+	width: 16px;
+	height: 16px;
+}
+
+.qTableHeadlineSortAsc {
+	float: right;
+	background-image: url("../../css/smoothness/images/ui-icons_222222_256x240.png");
+	background-position: 0px -16px;
+	width: 16px;
+	height: 16px;
+}
+
+.qTableHeadlineSortDesc {
+	float: right;
+	background-image: url("../../css/smoothness/images/ui-icons_222222_256x240.png");
+	background-position: -64px -16px;
+	width: 16px;
+	height: 16px;
+}
+
+.qTable td, .qTable th {
+	border: 1px solid #eee;
+	padding: 0.6em 10px;
+	text-align: left;
+}
+
+.qTable .even {
+	background-color: #f9f9f9;
+}
+
+.qTable .mouseover {
+	background-color: #eeeeee;
+}
+
+.qTablePages {
+	font-size: 15px;
+	text-align: center;
+	background: url("../../css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50% #CCCCCC;
+	padding: 3px 0px 3px 0px;
+	-moz-border-radius-bottomright: 7px;
+	border-bottom-right-radius: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+.qTablePages label span{
+	font-size: 10px;
+}

@@ -1,0 +1,152 @@
+/*
+	Copyright (C) 2012  Darvin Mertsch
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
+
+body{
+	background-color: #005aa0;
+	background-image:url('../images/bg_texture.png');
+	background-repeat:repeat-x;
+	margin: 0px;
+	min-height: 440px;
+}
+
+/***********************
+******   Login    ******
+***********************/
+
+#Login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -135px;
+	padding: 10px;
+	height: 80px;
+	width: 250px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background: #eeeeee;
+}
+
+#answer{
+	position: absolute;
+	margin: 0 auto;
+	bottom: 10%;
+	left: 30%;
+	width: 40%;
+	padding: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: #eeeeee;
+	text-align: center;
+	visibility: hidden;
+}
+
+/***********************
+******   Logout   ******
+***********************/
+
+#Logout{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #000000;
+}
+
+/***********************
+* Beginn des MainFrame *
+***********************/
+
+#mainFrame {
+	position:static;
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	text-align: center;
+	width: 95.5%;
+	height: 89%;
+	padding: 10px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background: #eeeeee;
+	min-height: 400px;
+}
+
+/***********************
+*   Beginn des Tabs	   *
+***********************/
+
+#tabs{
+	height: 98.5%;
+}
+
+
+#loading{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 66px;
+	height: 66px;
+	margin-top: -33px;
+	margin-left: -33px;
+	visibility: hidden;
+}
+
+/**********************
+* 	Ausgabeprofile	  *
+**********************/
+.outputprofileOutputelements, #hidden-headlines {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	border-top: 0px;
+	background-color: #eee;
+	border-collapse:collapse;
+	width: 420px;
+	height: 20px;
+}
+.outputprofileOutputelements li, #hidden-headlines li {
+	margin: -1px;
+	padding: 0px;
+	float: left;
+	width: 105px;
+	height: 20px;
+	font-size: 13px;
+	text-align: center;
+	overflow: hidden;
+	/*cursor: default;*/
+}
+
+#hidden-headlines {
+	z-index: 999999;
+	position: absolute;
+}
+
+
+fieldset .ui-widget-content.ui-corner-all:not(.outputprofileOutputelements){
+	width: 95%;
+}
+
+.removeUserdataBtn {
+	width: 24px;
+	height: 24px;
+	margin: 2px;
+	top: -7px;
+}

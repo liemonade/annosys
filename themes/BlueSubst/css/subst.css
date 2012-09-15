@@ -1,0 +1,123 @@
+/*
+	Copyright (C) 2012  Darvin Mertsch
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
+
+
+/*********************************
+** Beginn des Vertretungsplanes **
+*********************************/
+
+#mainContent{
+	width: 96%;
+	margin-left: 2%;
+	min-width: 1000px;
+}
+
+#mainContent .informations{
+	height: 8%;
+}
+
+#mainContent .informations .left{
+	position: absolute;
+	top: -0.5%;
+	left: 3.5%;
+	color: #de0000;
+	font-size: 2.25em;
+	font-family: "Tahoma";
+	text-shadow: #c8c8c8 1.5px 3px 0px;
+}
+
+#mainContent .informations .middle{
+	position: absolute;
+	top: 0.5%;
+	left: 45%;
+	color: #000000;
+	font-size: 2em;
+	font-family: "Tahoma";
+	font-style: oblique;
+}
+
+#mainContent .informations .right{
+	position: absolute;
+	top: -0.5%;
+	right: 3.5%;
+	text-align: right;
+	color: #de0000;
+	font-size: 2.25em;
+	font-family: "Tahoma";
+	text-shadow: #c8c8c8 1.5px 3px 0px;
+}
+
+#mainContent .substTable{
+	height: 89%;
+}
+
+table{
+	height: 14%;
+	border: 1px solid #a9a9a9;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 0.5%;
+	width: 100%;
+	font-size: 176%;
+	font-family: "Tahoma";
+	padding: 0px;
+	border-style: collapse;
+}
+
+.head{
+	background-color: #e0e0e0;
+	color: #444444;
+	font-weight: bold;
+}
+
+.entry{
+	background-color: #ffffff;
+}
+
+#odd{
+	border-bottom: 2px dashed #a9a9a9;
+}
+
+#even{
+	
+}
+
+#cell1{
+	width: 33%;
+	border-bottom: 2px dashed #a9a9a9;
+}
+
+#cell2{
+	width: 19%;
+	border-bottom: 2px dashed #a9a9a9;
+}
+
+#cell3{
+	width: 19%;
+	border-bottom: 2px dashed #a9a9a9;
+}
+
+#cell4{
+	width: 29%;
+	border-bottom: 2px dashed #a9a9a9;
+}
+#vertretung{
+	color: #dd0000;
+}
